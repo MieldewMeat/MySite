@@ -1,0 +1,26 @@
+.page-sticky {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  border: 7px solid;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+}
+
+.lupa {
+  width: 60%;
+  cursor: grab;
+}
+
+.lupa img {
+  width: 100%;
+  height: auto;
+}
